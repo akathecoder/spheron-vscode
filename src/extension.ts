@@ -1,13 +1,14 @@
 import { spawn } from "child_process";
 import * as vscode from "vscode";
-import { installExtension } from "./commands/installExtension";
+import { init } from "./commands/init";
+import { install } from "./commands/install";
 import { login } from "./commands/login";
 import { upload } from "./commands/upload";
 
 export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
     vscode.commands.registerCommand("spheron-extention.install", () => {
-      installExtension();
+      install();
     })
   );
 
@@ -20,6 +21,12 @@ export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
     vscode.commands.registerCommand("spheron-extention.upload", () => {
       upload();
+    })
+  );
+
+  context.subscriptions.push(
+    vscode.commands.registerCommand("spheron-extention.init", () => {
+      init();
     })
   );
 
