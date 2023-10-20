@@ -37,6 +37,14 @@
       {
         "command": "spheron-extention.test",
         "title": "Spheron > Test"
+      },
+      {
+        "command": "spheron-extention.create_organisation",
+        "title": "Spheron > Create Organization"
+      },
+      {
+        "command": "spheron-extention.configure",
+        "title": "Spheron > Configure"
       }
     ]
   },

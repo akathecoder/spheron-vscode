@@ -4,6 +4,8 @@ import { init } from "./commands/init";
 import { install } from "./commands/install";
 import { login } from "./commands/login";
 import { upload } from "./commands/upload";
+import { create_organisation } from "./commands/create_organisation";
+import { configure } from "./commands/configure";
 
 export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
@@ -51,6 +53,18 @@ export function activate(context: vscode.ExtensionContext) {
       childProcess.on("close", (code) => {
         console.log(`child process exited with code ${code}`);
       });
+    })
+  );
+
+  context.subscriptions.push(
+    vscode.commands.registerCommand("spheron-extention.create_organisation", () => {
+      create_organisation();
+    })
+  );
+  
+  context.subscriptions.push(
+    vscode.commands.registerCommand("spheron-extention.configure", () => {
+      configure();
     })
   );
 }
