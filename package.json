@@ -26,6 +26,10 @@
         "title": "Spheron > Upload"
       },
       {
+        "command": "spheron-extention.publish",
+        "title": "Spheron > Publish"
+      },
+      {
         "command": "spheron-extention.test",
         "title": "Spheron > Test"
       }

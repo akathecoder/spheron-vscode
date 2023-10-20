@@ -31,6 +31,12 @@ export function activate(context: vscode.ExtensionContext) {
   );
 
   context.subscriptions.push(
+    vscode.commands.registerCommand("spheron-extention.publish", () => {
+      init();
+    })
+  );
+
+  context.subscriptions.push(
     vscode.commands.registerCommand("spheron-extention.test", () => {
       const childProcess = spawn("npm", ["-sss"]);
 
