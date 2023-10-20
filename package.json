@@ -14,8 +14,20 @@
   "contributes": {
     "commands": [
       {
-        "command": "spheron-extention.helloWorld",
-        "title": "Hello World"
+        "command": "spheron-extention.install",
+        "title": "Spheron > Install CLI"
+      },
+      {
+        "command": "spheron-extention.login",
+        "title": "Spheron > Login"
+      },
+      {
+        "command": "spheron-extention.upload",
+        "title": "Spheron > Upload"
+      },
+      {
+        "command": "spheron-extention.test",
+        "title": "Spheron > Test"
       }
     ]
   },
