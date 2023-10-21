@@ -14,6 +14,9 @@ To install the extension, follow these steps:
 
 ## Usage
 
+![Screenshot 1](media/screenshot-1.png)
+![Screenshot 2](media/screenshot-2.png)
+
 The extension provides the following commands:
 
 - `Spheron Extension: Install`: Installs the Spheron CLI globally using npm.
