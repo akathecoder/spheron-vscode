@@ -6,6 +6,7 @@ import { create_organisation } from "./commands/create_organisation";
 import { init } from "./commands/init";
 import { install } from "./commands/install";
 import { login } from "./commands/login";
+import { logout } from "./commands/logout";
 import { upload } from "./commands/upload";
 import { SPHERON_ENDPOINT } from "./constants";
 import { SpheronDeploymentsProvider } from "./treeProviders/nodeTreeProvider";
@@ -21,6 +22,12 @@ export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
     vscode.commands.registerCommand("spheron-extention.login", () => {
       login();
+    })
+  );
+
+  context.subscriptions.push(
+    vscode.commands.registerCommand("spheron-extention.logout", () => {
+      logout();
     })
   );
 

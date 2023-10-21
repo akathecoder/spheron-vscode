@@ -28,6 +28,14 @@ export async function upload() {
 
   args.push("--protocol", protocol.toLowerCase());
 
+  const bucket = await vscode.window.showInputBox({
+    prompt: "Enter Bucket",
+  });
+
+  if (bucket !== undefined && bucket !== "") {
+    args.push("[ --bucket", bucket, "]");
+  }
+
   const project = await vscode.window.showInputBox({
     prompt: "Enter Project Name (optional)",
   });
