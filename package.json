@@ -1,7 +1,7 @@
 {
   "name": "spheron-explorer",
   "displayName": "Spheron Explorer",
-  "description": "Explore on Spheron using VS Code",
+  "description": "Explore Spheron on VS Code",
   "publisher": "akathecoder",
   "version": "0.3.0",
   "icon": "media/spheron.png",
