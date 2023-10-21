@@ -125,6 +125,10 @@ export function activate(context: vscode.ExtensionContext) {
   vscode.commands.registerCommand("deployments.refresh", () =>
     spheronDeploymentsProvider.refresh()
   );
+
+  vscode.commands.registerCommand("deployments.copyText", (text) =>
+    vscode.env.clipboard.writeText(text)
+  );
 }
 
 export function deactivate() {}

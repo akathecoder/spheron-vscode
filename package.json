@@ -18,7 +18,7 @@
         {
           "id": "spheron-explorer",
           "title": "Spheron Explorer",
-          "icon": "media/dep.svg"
+          "icon": "media/spheron.svg"
         }
       ]
     },
@@ -85,6 +85,10 @@
       {
         "command": "deployments.refresh",
         "title": "Refresh"
+      },
+      {
+        "command": "deployments.copyText",
+        "title": "Copy to Clipboard"
       }
     ],
     "menus": {
@@ -93,6 +97,12 @@
           "command": "deployments.refresh",
           "when": "view == deployments",
           "group": "navigation"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "deployments.copyText",
+          "when": "view == deployments && viewItem == generalTextBox"
         }
       ]
     }
