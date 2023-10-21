@@ -3,7 +3,7 @@
   "displayName": "spheron-extention",
   "description": "Deploy on Spheron using VS Code",
   "publisher": "akathecoder",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "icon": "media/spheron.png",
   "engines": {
     "vscode": "^1.83.0"
