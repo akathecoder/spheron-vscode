@@ -3,7 +3,7 @@
   "displayName": "Spheron Explorer",
   "description": "Explore Spheron on VS Code",
   "publisher": "akathecoder",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "icon": "media/spheron.png",
   "engines": {
     "vscode": "^1.83.0"
