@@ -1,7 +1,7 @@
 {
-  "name": "spheron-extention",
-  "displayName": "spheron-extention",
-  "description": "Deploy on Spheron using VS Code",
+  "name": "spheron-explorer",
+  "displayName": "Spheron Explorer",
+  "description": "Explore on Spheron using VS Code",
   "publisher": "akathecoder",
   "version": "0.2.1",
   "icon": "media/spheron.png",
