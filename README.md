@@ -20,7 +20,7 @@ The extension provides the following features:
 
 The Spheron Explorer is a custom view that displays a list of your Spheron deployments. To open the view, click on the Spheron icon in the Activity Bar on the side of the window.
 
-![Spheron Explorer](media/spheron-explorer.png)
+![Spheron Explorer](https://firebasestorage.googleapis.com/v0/b/test-project-1-b45b8.appspot.com/o/spheron-explorer.png?alt=media&token=b0d5c7ce-5880-4205-b5ed-1483a32c596b)
 
 #### Adding an API Key
 
@@ -35,7 +35,7 @@ To add your Spheron API key, follow these steps:
 
 The Command view displays a list of your Spheron deployments, along with their status and other information.
 
-![Command View](media/deployments-view.png)
+![Command View](https://firebasestorage.googleapis.com/v0/b/test-project-1-b45b8.appspot.com/o/deployments-view.png?alt=media&token=a63d92b5-bf0d-4e20-ac2f-cb1dcde9c6bb)
 
 The extension provides the following commands:
 
